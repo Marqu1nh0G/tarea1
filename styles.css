@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #300b46;
+  padding: 10px;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #2ecc71;
+}
+
+main {
+  padding: 20px;
+}
+main section {
+  margin-bottom: 20px;
+}
+main section h2 {
+  color: #300b46;
+}
+main section p {
+  line-height: 1.5;
+}
+main section img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+main section video {
+  display: block;
+  margin: 10px auto;
+}
+
+footer {
+  background-color: #300b46;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer p {
+  margin: 5px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

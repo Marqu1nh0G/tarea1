@@ -1,0 +1,71 @@
+// Variables
+$primary-color: #300b46;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #f4f4f4;
+
+// Base Styles
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}
+
+// Header Styles
+header {
+    background-color: $primary-color;
+    padding: 10px;
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Main Content Styles
+main {
+    padding: 20px;
+    section {
+        margin-bottom: 20px;
+        h2 {
+            color: $primary-color;
+        }
+        p {
+            line-height: 1.5;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        video {
+            display: block;
+            margin: 10px auto;
+        }
+    }
+}
+
+// Footer Styles
+footer {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    p {
+        margin: 5px 0;
+    }
+}
